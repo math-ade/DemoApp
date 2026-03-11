@@ -1,0 +1,6 @@
+[
+  {
+    "Type": "JSON_SCHEMA",
+    "Content": "{\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"enableNewFeature\": { \"type\": \"boolean\" },\n    \"maxRetries\": { \n      \"type\": \"integer\", \n      \"minimum\": 1, \n      \"maximum\": 10 \n    }\n  },\n  \"required\": [\"enableNewFeature\", \"maxRetries\"],\n  \"additionalProperties\": false\n}\n"
+  }
+]
